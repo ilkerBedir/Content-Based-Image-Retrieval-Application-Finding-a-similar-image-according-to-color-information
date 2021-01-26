@@ -28,7 +28,7 @@ def rgb_hist(image):  # girilen resmi red,blue,green histogramlarına ayırma ve
     return red, blue, green
 
 
-Tüm resimler için oluşan histogramlar 3 boyutlu matriste tutmak için yazdığım kodu kısmı.Bunu her defasında programı çalıştırmamak için yaptım.
+# Tüm resimler için oluşan histogramlar 3 boyutlu matriste tutmak için yazdığım kodu kısmı.Bunu her defasında programı çalıştırmamak için yaptım.
 rgb_list = np.zeros(shape=(150, 3, 256))
 def liste_olusturma(rgb_list, i):
     red, blue, green = rgb_hist(image1)
